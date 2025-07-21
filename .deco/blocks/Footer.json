@@ -1,1 +1,23 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [
+    {
+      "network": "Instagram",
+      "href": "instagram.com/one"
+    },
+    {
+      "network": "Linkedin",
+      "href": "linked.in/one"
+    }
+  ],
+  "subscribe": {
+    "instructions": "<p></p>"
+  },
+  "madeWith": {},
+  "copyright": "One Solutions LTDA. ",
+  "logo": {
+    "src": "https://assets.decocache.com/one/3805c4fe-b340-4833-ac6f-761fa5bfdd04/AWS.png"
+  }
+}

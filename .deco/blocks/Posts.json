@@ -1,0 +1,15 @@
+{
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [],
+    "extraProps": [],
+    "title": "Teste trial sei la",
+    "excerpt": "vamos ver se esse negocio funciona",
+    "image": "https://assets.decocache.com/one/e9282ddd-1e23-4bfa-b1e2-4299ef7c9d9e/An-image-depicting-a-website-being-tested",
+    "alt": "a website being tested",
+    "date": "2025-07-03",
+    "slug": "test-website-123",
+    "content": "<p>assim a gente ve se funciona</p>"
+  }
+}

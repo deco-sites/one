@@ -1,11 +1,25 @@
 {
-  "name": "Home",
-  "path": "/",
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "Home Copy",
+  "path": "/example-path",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
   "sections": [
     {
       "__resolveType": "site/sections/Header.tsx",
       "navigation": {
-        "links": [],
+        "links": [
+          {
+            "label": "Quem Somos"
+          },
+          {
+            "label": "Portfólio"
+          },
+          {
+            "label": "Blog"
+          }
+        ],
         "buttons": [
           {
             "href": "https://www.instagram.com/stratexone?igsh=cjkyc2h5dXQ4cW0z&utm_source=qr",
@@ -31,11 +45,11 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p style=\"text-align: justify\"><span style=\"font-size: 18pt\">Bem-vindo à Stratex One!</span></p>",
+      "title": "<p><span style=\"font-size: 18pt\">Bem-vindo à Stratex One!</span></p>",
       "cta": [],
       "description": "Na Stratex One, construímos pontes entre oportunidades e resultados. Atuamos na intermediação de negócios e na comercialização de equipamentos de capital e tecnologia da informação, atendendo empresas do setor privado corporativo e instituições do setor público.",
       "placement": "right",
-      "image": "https://assets.decocache.com/one/b0a1a1a6-39a1-4f99-9daa-d3904c0f019f/Stratex-One_Branco3.png"
+      "image": "https://assets.decocache.com/one/7ee4af43-53e1-411c-9dcc-aececbcc2dae/Stratex-One_Branco2.png"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -59,13 +73,67 @@
       "tagline": "Portfólio",
       "titlePlacement": "left",
       "image": "https://assets.decocache.com/one/bb1aa0da-dc67-4531-9ced-1caef788a8b9/Create-an-image-representing-a-broad-portfolio-of-IT-products",
-      "cta": [],
+      "cta": [
+        {
+          "style": "Outline",
+          "href": "page: portfolio",
+          "text": "Saiba mais"
+        }
+      ],
       "disableSpacing": {
         "top": true,
         "bottom": true
       },
-      "description": "🛠️ Estratégia & Venture Building\n\nDesenvolvimento e estruturação de novos negócios e modelos operacionais, com apoio tecnológico de ponta.\n\n🤝 Intermediação de Alto Impacto\nModelamos oportunidades, conectamos decisores e conduzimos negociações estratégicas para acelerar projetos de forma ética e sustentável.\n\n💼 Comercialização de Equipamentos de Capital e Tecnologia\nAtuamos na venda de equipamentos de capital e soluções em tecnologia da informação, com foco em eficiência, confiabilidade e alto desempenho para o setor público e privado.\n\n",
-      "descriptionPlacement": "justify"
+      "description": "🛠️ Estratégia & Venture Building\n\nDesenvolvimento e estruturação de novos negócios e modelos operacionais, com apoio tecnológico de ponta.\n\n🤝 Intermediação de Alto Impacto\nModelamos oportunidades, conectamos decisores e conduzimos negociações estratégicas para acelerar projetos de forma ética e sustentável.\n\n💼 Comercialização de Equipamentos de Capital e Tecnologia\nAtuamos na venda de equipamentos de capital e soluções em tecnologia da informação, com foco em eficiência, confiabilidade e alto desempenho para o setor público e privado.\n\n"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BlogPosts.tsx",
+        "title": "Stratex One News",
+        "description": "Aqui você encontra artigos e tendências em tecnologia para seu negócio",
+        "posts": [
+          {
+            "tags": [
+              "Cloud IT",
+              "Academic ",
+              "Trends"
+            ],
+            "author": "Saudi Journal of Humanities and Social Sciences",
+            "title": "Nuvem não é só para gigantes: saiba os 3 segredos que fazem PMEs adotarem a tecnologia",
+            "excerpt": "Estudo revela: segurança e líderes jovens são o real motor para PMEs na nuvem, não o preço",
+            "image": "https://assets.decocache.com/one/59a5b478-127d-46ea-97fc-a754a222531a/Create-an-image-about-the-benefits-of-Cloud-Computing-in-Portuguese.-Key-Benefits---Expanded-competitiveness-(Sheedy-2018)---Agile-value-creation-for-customers---Strengthening-of-partnership-ecosystems.-Framework-TOE-(Technology-Organization-Environment)---Technological-Factors---High-Management-Support---Technological-Readiness---Competitive-Pressure",
+            "date": "02/06/2025",
+            "readingTime": "5 minutes"
+          },
+          {
+            "tags": [
+              "Cloud IT",
+              "Trends",
+              "Harvard"
+            ],
+            "title": "Revolução na Gestão: Como a Nuvem Está Redefinindo as Regras do Jogo Empresarial",
+            "author": "Harvard Business Review",
+            "excerpt": "Estudo de Harvard revela que a nuvem está transformando desde tomadas de decisão até modelos de liderança, tornando empresas ágeis e orientadas por dados.",
+            "image": "https://assets.decocache.com/one/65200d03-f7c3-4977-bf9b-4fd7ca5215c9/Create-an-image-for-this-headline-'Revolution-in-Management-How-the-Cloud-is-Redefining-the-Rules-of-the-Business-Game'",
+            "date": "30/05/2025",
+            "readingTime": "6 minutos"
+          },
+          {
+            "tags": [
+              "Finanças",
+              "Cloud IT",
+              "Bloomberg"
+            ],
+            "title": "Tecnologia que Leva Serviços Financeiros a Todos: O Poder da Nuvem na Inclusão Global",
+            "author": "Bloomberg News",
+            "excerpt": "Reportagem da Bloomberg destaca como soluções em nuvem estão democratizando o acesso a bancos, seguros e investimentos em regiões antes desatendidas.",
+            "image": "https://assets.decocache.com/one/988f1a78-f920-4d1b-af8c-c238f9da591a/Create-an-image-for-this-headline-Technology-that-Brings-Financial-Services-to-All-The-Power-of-Cloud-in-Global-Inclusion",
+            "date": "25/05/2025",
+            "readingTime": "7 minutos"
+          }
+        ]
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -86,7 +154,7 @@
           },
           {
             "content": {
-              "description": "\"Durante a ampliação de nosso centro de distribuição, precisávamos de agilidade e confiança na aquisição dos equipamentos essenciais. A Stratex One foi decisiva nesse processo — atuou com transparência, ótimo atendimento e uma negociação extremamente competitiva. Recebemos os equipamentos no prazo, com suporte direto dos fabricantes e total garantia de qualidade. A experiência foi tão positiva que seguimos com a Stratex One em novas demandas específicas, sempre com soluções alinhadas ao nosso orçamento e às exigências do nosso negócio.\"",
+              "description": "\"Durante a ampliação de nosso centronossa nova unidade industrial, precisávamos de agilidade e confiança na aquisição dos equipamentos essenciais. A Stratex One foi decisiva nesse processo — atuou com transparência, ótimo atendimento e uma negociação extremamente competitiva. Recebemos os equipamentos no prazo, com suporte direto dos fabricantes e total garantia de qualidade. A experiência foi tão positiva que seguimos com a Stratex One em novas demandas específicas, sempre com soluções alinhadas ao nosso orçamento e às exigências do nosso negócio.\"",
               "name": "Ana Lúcia Fernandes",
               "position": "Gerente de compras | Indústria de Medicamentos",
               "avatar": "https://assets.decocache.com/one/1d76ecad-feb7-4993-9a4c-2e9ea581a072/Create-a-minimalist-icon-in-the-shape-of-a-person-(human-silhouette)-entirely-in-solid-black-color-on-a-white-background.-The-style-should-be-simple-modern-and-universal-without-facial-details-or-clothesjust-the-clean-outline-of-a-female-human-figure-(only-the-torso).-Make-sure-the-icon-has-balanced-proportions-and-high-legibility-even-at-small-sizes.-There-should-not-be-any-other-drawing-or-writing-in-the-image."
@@ -122,7 +190,7 @@
         },
         {
           "title": "Como funciona a solução de informática da Stratex One?",
-          "answer": "<p><strong>Somos especialistas no atendimento a demandas B2B.</strong><br>Nossos clientes nos procuram com necessidades específicas, e nossa equipe atua de forma consultiva para identificar as melhores soluções disponíveis no mercado — considerando critérios técnicos, qualidade, custo e prazo.</p><p>Trabalhamos em parceria com os principais fabricantes de equipamentos de informática e bens de capital, o que nos garante flexibilidade para oferecer propostas competitivas e alinhadas às reais necessidades de cada projeto.</p><p>Quando necessário, conectamos parceiros qualificados para instalação e suporte técnico, assegurando uma entrega completa, com segurança, agilidade e eficiência.</p>"
+          "answer": "<p>Somos focado em atender demandas B2B. O cliente nos procura com uma demanda e nossos especialistas pesquisam no mercado a melhor forma de atendê-lo, oferecendo os melhores preços, prazos de entrega e conectando a parceiros para a instalação e suporte, se for o caso. Como não somos ligados exclusivamente  um distribuidor ou fabricante, temos flexibilidade para buscar a oferta que melhor atenda às necessidades da sua empresa! </p>"
         }
       ],
       "title": "Perguntas Frequentes",
@@ -166,12 +234,8 @@
         "src": "https://assets.decocache.com/one/12250dbb-a1f9-427c-9b37-f019bc690265/Stratex-One-(3).png"
       },
       "logo": {
-        "src": "https://assets.decocache.com/one/10665bb2-a2e2-4b26-9a72-2e653c34702e/Stratex-One-(3).png"
+        "src": "https://assets.decocache.com/one/26589b75-af03-48c4-8b18-9514451c61bb/Stratex-One-(3).png"
       }
     }
-  ],
-  "__resolveType": "website/pages/Page.tsx",
-  "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  }
+  ]
 }
