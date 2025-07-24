@@ -31,15 +31,14 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p style=\"text-align: justify\"><span style=\"font-size: 18pt\">Bem-vindo à Stratex One!</span></p>",
+      "title": "<p style=\"text-align: center\"><strong><span style=\"font-size: 18pt\">Bem-vindo à Stratex One</span></strong><span style=\"font-size: 18pt\">!</span></p>",
       "cta": [],
-      "description": "Na Stratex One, construímos pontes entre oportunidades e resultados. Atuamos na intermediação de negócios e na comercialização de equipamentos de capital e tecnologia da informação, atendendo empresas do setor privado corporativo e instituições do setor público.",
-      "placement": "right",
-      "image": "https://assets.decocache.com/one/b0a1a1a6-39a1-4f99-9daa-d3904c0f019f/Stratex-One_Branco3.png"
+      "image": "https://assets.decocache.com/one/b0a1a1a6-39a1-4f99-9daa-d3904c0f019f/Stratex-One_Branco3.png",
+      "description": "Na Stratex One, somos especialistas em consultoria de negócios e na comercialização de equipamentos de TI e bens de capital, atendendo empresas dos mais diversos setores do mercado corporativo."
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "title": "Stratex One: Conectando Valor. ",
+      "title": "Stratex One: Conectamos negócios. Entregamos resultado.",
       "image": "https://assets.decocache.com/one/00c02f8e-a7f2-460a-b5ed-75845490ecdf/Depict-an-enterprise-that-connects-customers-with-the-latest-technology-for-the-optimization-of-their-business-environment-with-particular-emphasis-on-partnerships-with-leading-cloud-service-providers.",
       "tagline": "Quem Somos",
       "description": "Conectamos clientes, investidores, fornecedores e ecossistemas corporativos para transformar oportunidades em negócios reais.\n\nAcreditamos na satisfação do cliente em 1º lugar e em relacionamentos comerciais de longo prazo. Nosso time atua com visão estratégica e execução prática, desenvolvendo soluções em parceria com os principais fabricantes de tecnologia do Brasil e do mundo.",
@@ -64,7 +63,7 @@
         "top": true,
         "bottom": true
       },
-      "description": "🛠️ Estratégia & Venture Building\n\nDesenvolvimento e estruturação de novos negócios e modelos operacionais, com apoio tecnológico de ponta.\n\n🤝 Intermediação de Alto Impacto\nModelamos oportunidades, conectamos decisores e conduzimos negociações estratégicas para acelerar projetos de forma ética e sustentável.\n\n💼 Comercialização de Equipamentos de Capital e Tecnologia\nAtuamos na venda de equipamentos de capital e soluções em tecnologia da informação, com foco em eficiência, confiabilidade e alto desempenho para o setor público e privado.\n\n",
+      "description": "🛠️ Estratégia & Venture Building:\n\nAtuamos no desenvolvimento e estruturação de novos negócios e modelos operacionais, com apoio tecnológico de ponta.\n\n🤝 Intermediação de Alto Impacto:\nmodelamos oportunidades, conectamos decisores e conduzimos negociações estratégicas para acelerar projetos de forma ética e sustentável.\n\n💼 Comercialização de Equipamentos de TI e bens de capital:\natuamos na venda de equipamentos de TI e bens de capital, com foco em qualidade, produtividade, e competitividade no preço. Atendemos empresas e indústrias que buscam eficiência e alto desempenho em suas operações.\n",
       "descriptionPlacement": "justify"
     },
     {
@@ -100,10 +99,10 @@
           },
           {
             "content": {
-              "description": "\"Com o Virtual Desktop Microsoft implementado pela Stratex One, nossa equipe ganhou mobilidade e segurança. Agora, colaboradores acessam seus desktops de qualquer lugar, sem risco de vazamento de dados. O custo com manutenção de máquinas físicas caiu 50%, e a produtividade disparou. Recomendo sem hesitar!\"",
               "name": "Juliana Ribeiro",
-              "position": "Diretora de Transformação Digital | Empresa de Consultoria",
-              "avatar": "https://assets.decocache.com/one/cc4a7796-681b-4400-bd16-c461c275ac9b/Create-a-minimalist-icon-in-the-shape-of-a-person-(human-silhouette)-completely-in-solid-black-color-with-a-white-background.-The-style-should-be-simple-modern-and-universal-without-facial-details-or-clothingjust-the-clean-outline-of-a-corporate-female-human-figure-(bust-only).-Ensure-that-the-icon-has-balanced-proportions-and-high-legibility-even-at-small-sizes.-The-background-should-be-WHITE-without-any-other-information-in-the-image."
+              "position": "Diretora de Operações | Empresa de Construção Industrial",
+              "avatar": "https://assets.decocache.com/one/cc4a7796-681b-4400-bd16-c461c275ac9b/Create-a-minimalist-icon-in-the-shape-of-a-person-(human-silhouette)-completely-in-solid-black-color-with-a-white-background.-The-style-should-be-simple-modern-and-universal-without-facial-details-or-clothingjust-the-clean-outline-of-a-corporate-female-human-figure-(bust-only).-Ensure-that-the-icon-has-balanced-proportions-and-high-legibility-even-at-small-sizes.-The-background-should-be-WHITE-without-any-other-information-in-the-image.",
+              "description": "\"A Stratex One foi essencial no nosso processo de profissionalização da gestão. Com a aplicação da metodologia OKR,  amplamente reconhecida internacionalmente — conseguimos alinhar metas estratégicas à operação de forma muito mais eficaz. Além disso, investimos em um pacote robusto de soluções de informática, incluindo a renovação de equipamentos e estruturação de redes e servidores, o que aumentou nossa eficiência operacional e redução de custos.  Em uma fase posterior, durante o movimento de expansão da companhia, a Stratex One também teve papel decisivo na atração e negociação com nosso novo sócio estratégico, com atuação internacional e aporte de capital. Sem dúvida, foi uma parceria que contribuiu de forma direta para nosso crescimento e consolidação no mercado.\""
             }
           }
         ]
@@ -114,19 +113,19 @@
       "questions": [
         {
           "title": "Como posso entrar em contato com vocês?",
-          "answer": "<p>Você pode entrar em contato através das nossas redes sociais (links no rodapé) ou ainda através do email contato@stratexone.com.br.</p>"
+          "answer": "<p>Você pode entrar em contato conosco pelo <strong>WhatsApp</strong>, pelas <strong>redes sociais</strong> (links disponíveis no rodapé) ou pelo e-mail <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:contato@stratexone.com.br\"><strong>contato@stratexone.com.br</strong></a>.<br>Nossa equipe de especialistas está à disposição para atender você com agilidade e atenção.</p>"
         },
         {
           "title": "Existe tamanho mínimo para a empresa ser cliente dos seus serviços?",
-          "answer": "<p>Não, justamente buscamos atender a todo o perfil de empresas. Desde aquele empreendedor que está começando e precisa de ajuda para alavancar seu negócio, até aquela empresa com alto faturamento que precisa de tecnologia para suportar sua escalabilidade.</p>"
+          "answer": "<p>Não. Atendemos empresas de todos os portes. Nosso compromisso é oferecer soluções adequadas às necessidades de cada negócio — desde empreendedores em fase inicial que buscam apoio para crescer, até grandes organizações que precisam de tecnologia robusta para sustentar sua escalabilidade com segurança e competitividade.</p><p>Independentemente do estágio, atuamos como um parceiro estratégico para gerar valor real em cada etapa da jornada.</p>"
         },
         {
           "title": "Como funciona a solução de informática da Stratex One?",
-          "answer": "<p><strong>Somos especialistas no atendimento a demandas B2B.</strong><br>Nossos clientes nos procuram com necessidades específicas, e nossa equipe atua de forma consultiva para identificar as melhores soluções disponíveis no mercado — considerando critérios técnicos, qualidade, custo e prazo.</p><p>Trabalhamos em parceria com os principais fabricantes de equipamentos de informática e bens de capital, o que nos garante flexibilidade para oferecer propostas competitivas e alinhadas às reais necessidades de cada projeto.</p><p>Quando necessário, conectamos parceiros qualificados para instalação e suporte técnico, assegurando uma entrega completa, com segurança, agilidade e eficiência.</p>"
+          "answer": "<p><strong>Somos especialistas no atendimento a demandas B2B.</strong><br>Nossa equipe atua de forma consultiva e ativa para identificar as melhores soluções disponíveis no mercado para nossos clientes — considerando critérios técnicos, qualidade, custo e prazo.</p><p>Trabalhamos em parceria com os principais fabricantes de equipamentos de informática e bens de capital, o que nos garante flexibilidade para oferecer propostas competitivas e alinhadas às reais necessidades de cada projeto.</p><p>Quando necessário, conectamos parceiros qualificados para instalação e suporte técnico, assegurando uma entrega completa, com segurança, agilidade e eficiência.</p>"
         }
       ],
       "title": "Perguntas Frequentes",
-      "description": "Aqui você acessa as principais perguntas de quem procura nossos serviços. Caso não encontre a resposta que procura, clique abaixo para nos enviar uma mensagem, que responderemos em breve.",
+      "description": "Aqui você acessa as principais perguntas de quem procura nossos serviços. Caso não encontre a resposta que procura, clique abaixo para nos enviar uma mensagem. Nossos especialistas entrarão em contato.",
       "cta": {
         "href": "https://wa.me/5513996446723",
         "outline": false,
@@ -145,7 +144,7 @@
         "title": "Ficou Interessado?",
         "description": "Deixe seu email abaixo que logo entraremos em contato para encontrar a melhor solução para o seu negócio!"
       },
-      "copyright": "Stratex One LTDA. 2025.",
+      "copyright": "Stratex One LTDA. Since 2023.",
       "bottomLinks": [
         {
           "label": "contato@stratexone.com.br",
